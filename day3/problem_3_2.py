@@ -1,4 +1,4 @@
-with open("day3/problem_3.txt") as file:
+with open("day3/problem_3_input.txt") as file:
     data = [[ch for ch in line if ch != '\n'] for line in file]
 
 cols = len(data[0])

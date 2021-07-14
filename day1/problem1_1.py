@@ -12,7 +12,7 @@ def multiply_elements():
     return elements_to_multiply[0] * elements_to_multiply[1]
 
 
-with open("day1/problem1_1.txt") as input_file:
+with open("day1/problem1_input.txt") as input_file:
     input = [int(line.strip()) for line in input_file]
 
 print(multiply_elements())

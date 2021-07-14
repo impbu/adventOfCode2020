@@ -1,6 +1,6 @@
 valid_password_counter = 0
 
-file = open("day2/problem2.txt")
+file = open("day2/problem2_input.txt")
 while True:
     line = file.readline()
     if not line:
